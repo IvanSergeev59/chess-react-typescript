@@ -2,11 +2,19 @@ import React from "react";
 
 const BoardComponent = () => {
     return (
-        <div className='board'>board
-        <div className="cell white"></div>
-        <div className="cell black"></div>
-        <div className="cell white"></div>
-        <div className="cell black"></div>
+        <div className='board'>
+            <div className="cell white"></div>
+            <div className="cell black"></div>
+            <div className="cell white"></div>
+            <div className="cell black"></div>
+            <div className="cell white"></div>
+            <div className="cell black"></div>
+            <div className="cell white"></div>
+            <div className="cell black"></div>
+            <div className="cell white"></div>
+            <div className="cell black"></div>
+            <div className="cell white"></div>
+            <div className="cell black"></div>
         </div>
     )
 }
