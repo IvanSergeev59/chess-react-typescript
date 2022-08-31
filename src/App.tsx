@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.sass';
-import Board from './board';
+import BoardComponent from './components/BoardComponents';
 
 function App() {
   return (
     <div className="app">      
       <p>work</p>
-      <Board />
+      <BoardComponent />
     </div>
   );
 }
