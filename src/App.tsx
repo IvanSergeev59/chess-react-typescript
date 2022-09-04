@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.sass';
-import BoardComponent from './components/BoardComponents';
+import { Board } from './models/Board';
 
-function App() {
+const App = () => {
+  const [board, setBoard] = useState(new Board())
+
+  function restart() {
+    const newBoard = new Board()
+  }
   return (
     <div className="app">      
       <p>work</p>
