@@ -16,8 +16,7 @@ const App = () => {
     setBoard(newBoard)
   }
   return (
-    <div className="app">      
-      <p>work</p>
+    <div className="app"> 
       <BoardComponent 
         board={board}
         setBoard = {setBoard} />
