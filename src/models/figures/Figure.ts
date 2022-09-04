@@ -23,7 +23,16 @@ constructor(color:Colors, cell: Cell) {
     this.cell = cell
     this.cell.figure = this;
     this.logo = null;
-    this.name = FigureNames.FIGURE
+    this.name = FigureNames.FIGURE;
+    this.id = Math.random()
 }
+
+// the figure can move or not
+canMove(target: Cell): boolean {
+    return true
+}
+
+// moving the figure
+moveFigure(target: Cell) 
 
 }
