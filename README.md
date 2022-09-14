@@ -1,2 +1,1 @@
-# chess-react-typescript
-Simple chess game project. Stack: react + typescript
+chess game project on React + typescript
